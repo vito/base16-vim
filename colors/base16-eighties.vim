@@ -253,6 +253,20 @@ call <sid>hi("Todo",         s:gui0A, s:gui01, s:cterm0A, s:cterm01, "", "")
 call <sid>hi("Type",         s:gui0A, "", s:cterm0A, "", "none", "")
 call <sid>hi("Typedef",      s:gui0A, "", s:cterm0A, "", "", "")
 
+" LSP
+call <sid>hi("LspDiagnosticsDefaultError", s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("LspDiagnosticsUnderlineError", s:gui08, "", s:cterm08, "", "undercurl", s:gui08)
+call <sid>hi("LspDiagnosticsDefaultWarning", s:gui09, "", s:cterm09, "", "", "")
+call <sid>hi("LspDiagnosticsUnderlineWarning", s:gui09, "", s:cterm09, "", "undercurl", s:gui09)
+call <sid>hi("LspDiagnosticsDefaultInformation", s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("LspDiagnosticsUnderlineInformation", s:gui0A, "", s:cterm0A, "", "undercurl", s:gui0A)
+call <sid>hi("LspDiagnosticsDefaultHint", s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("LspDiagnosticsUnderlineHint", s:gui0B, "", s:cterm0B, "", "undercurl", s:gui0B)
+call <sid>hi("LspReferenceText", "", s:gui01, "", s:cterm01, "", "")
+call <sid>hi("LspReferenceRead", "", s:gui01, "", s:cterm01, "", "")
+call <sid>hi("LspReferenceWrite", "", s:gui01, "", s:cterm01, "", "")
+call <sid>hi("LspCodeLens",     s:gui03, "", s:cterm03, "", "", "")
+
 " C highlighting
 call <sid>hi("cOperator",   s:gui0C, "", s:cterm0C, "", "", "")
 call <sid>hi("cPreCondit",  s:gui0E, "", s:cterm0E, "", "", "")
