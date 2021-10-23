@@ -270,7 +270,7 @@ call <sid>hi("LspCodeLens",     s:gui03, "", s:cterm03, "", "", "")
 " Floaterm
 call <sid>hi("Floaterm", "", s:gui00, "", s:cterm00, "", "")
 call <sid>hi("FloatermNC", "", s:gui01, "", s:cterm01, "", "")
-call <sid>hi("FloatermBorder", s:gui00, s:gui04, s:cterm00, s:cterm04, "", "")
+call <sid>hi("FloatermBorder", s:gui03, s:gui00, s:cterm03, s:cterm00, "", "")
 
 " C highlighting
 call <sid>hi("cOperator",   s:gui0C, "", s:cterm0C, "", "", "")
